@@ -1,0 +1,21 @@
+.btn-primary {
+  background-color: #f76d37;
+  border-color: #f76d37;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #e55c2f;
+  border-color: #e55c2f;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #d14620;
+  border-color: #d14620;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(241, 109, 55, 0.5);
+}

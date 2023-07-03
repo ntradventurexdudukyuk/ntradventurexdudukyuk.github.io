@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  background-color: #25d366;
+  color: #ffffff;
+  padding: 15px 50px 12px 50px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #128c7e;
+}
+
+.wa_btn {
+  text-align: center;
+  margin-top: 10px;
+}
